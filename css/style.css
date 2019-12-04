@@ -1,0 +1,470 @@
+body{
+  font-family: arial, helvetica, sans-serif;
+  background: #A9A9A9;
+  color: #f5deb3;
+}
+main header{
+  text-align: center;
+  color: #FF3B3F;
+}
+main footer{
+  text-align: center;
+  font-size: 75%;
+}
+.h1{
+  font-size:200%;
+  color: #FF3B3F;
+  text-shadow: 2px 2px;
+}
+@font-face {
+  font-family: "Cooper Black";
+  src: url("/fonts/cooper-black.otf");
+}
+h2{
+  font-size:170%;
+  font-family: "Cooper Black", serif;
+}
+h3{
+  font-size:140%;
+}
+main>li{
+  text-decoration: none;
+}
+a{
+  background: #739122;
+  color: #f5deb3;
+}
+a:focus, a:hover{
+  background: #f5deb3;
+  color: #739122;
+}
+label{
+    display: inline-block;
+    text-align: right;
+    width: 15em;
+	  font-size: 2em;
+}
+.mainimg{
+  left: 20px;
+  float: left;
+  width: 350px;
+  height: 189px;
+}
+
+.clearfix{
+  clear:both;
+}
+.icons {
+  position:relative;
+    display: inline-block;
+    float:left;
+    padding:10px;
+
+}
+#contactimg{
+  margin-left: 30em;
+}
+footer>p{
+  margin-bottom: -2em;
+}
+/*	index	*/
+#homeimg{
+  margin-left:20em;
+}
+
+#indexh1{
+  margin-top: 1.5em;
+  margin-left: 10em;
+  font-size: 250%;
+}
+#img4{
+  margin-left: 20em;
+
+}
+#indexp{
+  width: 50em;
+  margin-left: 20em;
+}
+#indexaside{
+  float: right;
+  margin-right: 4em;
+  background: #f5deb3;
+  color: #739122;
+}
+#indexaside2{
+  float: left;
+  margin-left: 4em;
+  background: #f5deb3;
+  color: #739122;
+}
+#ul2{
+  margin-left: 2em;
+  margin-top: -1.3em;
+  list-style-image: url('../images/pawprints2.png');
+}
+/*footer*/
+.footerTest{
+  width: 100%;
+  margin: 30% auto;
+  position: absolute;
+  left: 0;
+  z-index: -1;
+}
+
+#motto{
+  background: #B6B6AB;
+  text-align: center;
+  width: 100%;
+  padding: 0px;
+  color: #fff;
+  font: 16pt Georgia;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+}
+
+#footerTest{
+  background: #22697F;
+  padding: 15px 0 15px 0;
+}
+
+.footerWrap{
+  margin: auto;
+  width: 600px;
+  padding: 5px 0 5px 25px;
+}
+
+.toe{
+  overflow: hidden;
+  display: inline-block;
+  width: 180px;
+  margin: 0 15px 15px 0;
+  font-size: 10pt;
+  line-height: 1.6em;
+  vertical-align: top;
+}
+
+.toe a{
+  display: block;
+  text-decoration: none;
+  color: #fff;
+}
+
+.toe a:hover{
+  text-decoration: underline;
+}
+
+.toe h3{
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 12pt;
+  display: inline-block;
+  letter-spacing: 1px;
+}
+
+#legal{
+  width: 100%;
+  text-align: center;
+  color: #EAEAEA;
+  background: #22697F;
+  font-size: 8pt;
+  line-height: 1.6em;
+  padding: 10px 10px -50px 10px;
+}
+
+#social a{
+  display: inline-block;
+  width: 29px;
+  height: 29px;
+  margin: 0 3px 3px 0;
+}
+
+#fb{
+  background: url("https://imgur.com/fCRgp42.png") 0 0 no-repeat;
+}
+
+#instagram{
+  background: url("https://imgur.com/fCRgp42.png") -146px 0 no-repeat;
+}
+
+/* barn */
+.carousel-control.left
+    {
+      background: none;
+    }
+    .carousel-control.right
+    {
+      background: none;
+    }
+
+    .carousel-control
+    {
+      position: absolute;
+      top: 45%;
+      bottom: 0;
+      left: 0;
+      width: 15%;
+      font-size: auto;
+      color: #fff;
+      text-align: center;
+      opacity: 1;
+      text-shadow: none;
+    }
+    .carousel-control:hover
+    {
+      color: #000;
+    }
+    .carousel-indicators
+    {
+      bottom: -50px;
+    }
+    .carousel-indicators li
+    {
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      margin: 1px;
+      text-indent: -999px;
+      cursor: pointer;
+      background-color: #000\9;
+      background-color: rgba(0,0,0,0);
+      border: 1px solid #16a085;
+      border-radius: 50%;
+    }
+    .carousel-indicators .active
+    {
+      width: 12px;
+      height: 12px;
+      margin: 0;
+      background-color: #16a085;
+    }
+    .carousel-caption
+    {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      z-index: 10;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      color: #fff;
+      text-align: center;
+      background: rgba(0,0,0,0.4);
+    }
+/* sale */
+.forsaletxt{
+  margin-left: 10em;
+  width: 70em;
+}
+/*	about	*/
+#aboutimg{
+  margin-top: 9em;
+  margin-left: -24em;
+  float: left;
+}
+#aboutsection{
+  margin-top: 12em;
+  width: 70em;
+}
+/*	services	*/
+#sidebarA{
+  width: 180px;
+  height: 500px;
+  float: left;
+  background: #6D7993;
+  margin-top: 8em;
+  margin-left: -20em;
+}
+#ol1{
+  list-style-type: lower-roman;
+}
+#ul1{
+  margin-left: 2em;
+  list-style-image: url('../images/pawprints2.png');
+}
+.img2{
+  float: right;
+  margin-right: -4em;
+}
+#servicesmain{
+  margin-top: 10em;
+  width: 400px;
+  float: left;
+  font-size: 80%;
+}
+table{
+  border: 1px solid black;
+  border-collapse: collapse;
+  height: 40em;
+}
+th, tr{
+  border: 1px solid black;
+}
+#servicesbody{
+  width: 964px;
+}
+/*	testimonials	*/
+.img3 {
+  float: left;
+}
+.img5 {
+  float: right;
+}
+#testsection{
+  margin-top: 10em;
+}
+/*	contact	*/
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Quicksand', sans-serif;
+}
+
+
+.cont{
+  position: relative;
+  display: block;
+  width: 35%;
+  height: 500px;
+  margin: 60px auto;
+  padding: 5px 20px;
+}
+
+.h1 {
+  color: #fff;
+  font-size: 70px;
+  font-weight: 100;
+  text-align: center;
+}
+
+span.orange {
+  display: inline;
+  font-size: 65px;
+  color: #ffa700;
+  margin-right: -15px;
+}
+
+.contact{
+  width: 100%;
+  height: 330px;
+  padding: 25px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 40px;
+  border-radius: 5px;
+  box-shadow: 3px 3px 8px 0px #0e0e0e;
+  background-color: rgba(255, 255, 255, 0.12);
+}
+
+.c1,.c2,.c3,.c4 {
+  display: inline-block;
+  color: #fff;
+  height: 35px;
+  font-size: 20px;
+  margin: 10px 5px;
+  padding: 0 0 0 10px;
+  border-radius: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.45);
+  background-color: rgba(255, 255, 255, 0.28);
+}
+
+input::placeholder,
+textarea::placeholder{
+  color: #fff;
+  font-size: 18px
+}
+
+.c1, .c2 {
+  width: 45%;
+}
+
+.c3, .c4 {
+  width: 94%;
+}
+
+.c4 {
+  height: 90px;
+  padding: 5px 10px;
+}
+
+input[type="submit"] {
+  width: 94%;
+  height: 50px;
+  color: #fff;
+  font-size: 35px;
+  font-weight: 100;
+  border: none;
+  border-radius: 5px;
+  background: #e19c1a;
+}
+
+/* mobile landscape to tablet portrait */
+@media only screen and (max-width: 767px) {
+    #nav_menu {
+        display: none;
+    }
+    #mobile_menu {
+        display: block;
+    }
+    .slicknav_menu {
+        background-color: #facd8a !important;
+    }
+    body {
+        width: 100%;                           /* full width of screen */
+        margin: 0;                             /* no margins */
+        border: none;                          /* no border */
+    }
+    header, footer p {
+        text-align: center;
+    }
+    footer p { margin-right: 0; }
+    header h2 {
+        font-size: 1.625em;                    /* 26 / 16 */
+        margin: .4em 0 .25em 0;
+    }
+    header h3 {
+        font-size: 1em;                        /* base font size */
+        margin-left: 0;
+    }
+    header img {
+        float: none;
+    }
+    section {
+        width: 95.9596%;                       /* 100 - (2 * 2.0202) for padding */
+        float: none;
+        margin-right: 2.0202%;                 /* 20 / 990 */
+        padding-right: 0;
+    }
+    aside {
+        width: 91.9192%;                       /* 100 - (4 * 2.0202) for padding and margins */
+        float: none;
+        margin: 0 2.0202% 2.0202% 2.0202%;     /* 20 / 990 */
+    }
+}
+
+/* mobile portrait to mobile landscape */
+@media only screen and (max-width: 479px) {
+    header h2 {
+        font-size: 1.375em;                    /* 22 / 16 */
+    }
+    header h3 {
+        font-size: .8125em;                    /* 13 / 16 */
+    }
+    p {
+        font-size: .875em;                     /* 14 / 16 */
+    }
+    section h1, section h2, aside h2 {
+        font-size: 1em;                        /* base font size */
+    }
+    section li, aside li {
+        font-size: .875em;                     /* 14 / 16 */
+    }
+    aside h3 {
+        font-size: .9375em;                     /* 15 / 16 */
+    }
+    footer p {
+        font-size: .6875em;                     /* 11 / 16 */
+    }
+}
